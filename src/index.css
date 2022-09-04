@@ -1,13 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800;900&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ 
+.stopwatch{
+  background-color: #4169e1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.stopwatch_box{
+  width: 400px;
+  height: 200px;
+  background-color: powderblue;
+  align-self: center; 
+  padding: 25px;
+}
+.stopwatch_box h4{
+  text-transform: uppercase;
+  font-size: 120%;
+}
+.timer .digits {
+  border: 1px solid;
+  padding: 20px 50px;
+}
+.Control-Buttons {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  background-color: blue;
+  color: white;
+  padding: 5px 10px; 
+  margin: 0px 5px;
+}
+
+span.digits {
+  font-size: 20px;
 }
